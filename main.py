@@ -9,7 +9,7 @@ def circle_area(radius):
 
 
 def rect_area(width, height):
-    return width * height
+    return float(width * height)
 
 
 def triangle_area(base, height):
@@ -49,7 +49,7 @@ def main():
                 print(unknown_shape())
 
     array_sum = sum(total_area)
-    print(f"total sum of all shape areas in the JSON data is {round(array_sum, 2)}")
+    print(f"total sum of all shape areas in the JSON data is {array_sum}")
 
 
 main()
